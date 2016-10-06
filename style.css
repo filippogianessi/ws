@@ -143,5 +143,6 @@ a {
 
 .headerz {
  	fill: #ffffff;
+	animation: opacity 5s;
  }
  
