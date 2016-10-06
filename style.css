@@ -47,7 +47,7 @@ src: url('Freak-Grotesk.otf');
 
 p {
 	
-	animation:         opacity 5s infinite;
+	
 	font-family: 'HKGrotesk-Medium', sans-serif;
 	color: white;
 	
@@ -145,6 +145,7 @@ a {
 
 .headerz {
  	fill: #ffffff;
-	animation:         opacity 5s infinite;
+	opacity: 0;
+	animation: opacity 5s infinite;
  }
  
