@@ -1,0 +1,137 @@
+
+html, body {
+	
+
+	height: 100%;
+	margin: 100px;
+	margin-top:  100px;
+	margin-bottom:  100px;
+	margin-right:  0px;
+	
+}
+
+
+
+
+
+	
+@font-face
+{
+font-family: HKGrotesk-Medium;
+src: url('HKGrotesk-Medium.otf');
+}
+	
+@font-face
+{
+font-family: HKGrotesk-Bold;
+src: url('HKGrotesk-Bold.otf');
+} 
+
+@font-face
+{
+font-family: Freak-Grotesk;
+src: url('Freak-Grotesk.otf');
+
+
+}
+ 
+
+
+
+
+
+ 
+   
+
+
+
+p {
+	
+	font-family: 'HKGrotesk-Medium', sans-serif;
+	color: white;
+	
+	font-size: 21px;
+}
+
+.titolo {
+
+	font-family: 'Freak-Grotesk', sans-serif;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	
+	font-feature-settings: "ss01" on; 
+
+	
+	
+	}
+	
+	
+.sottotitolo {
+
+	font-family: 'HKGrotesk-Medium', sans-serif;
+	color: white;
+	font-size: 24px;
+	margin-bottom: 50px;
+	
+	
+	
+	
+	}
+	
+.stocazzo {
+	margin-top: 50px;
+}
+
+.spazioelenco {
+	margin-top: 25px;
+}
+
+a {
+	color: white !important;
+	font-family: 'HKGrotesk-Medium', sans-serif;
+	font-size: 21px;
+	
+}
+
+
+::selection {
+  color: white;
+  	background: black; 
+  
+ }
+ 
+ a:hover { 
+     color: white;
+     	background: black; 
+ }
+ 
+ .contenitore {
+ 	margin-bottom: 100px;
+ }
+ 
+ .contenitore2 {
+ 	margin-bottom: 100px;
+ }
+ 
+ 
+ #Livello_1 {
+ 	position: fixed;										
+ 	right: 300px;
+ 	top: 100px;
+ 	z-index: -1;
+ }
+ 
+ #granim-canvas{
+ 	
+ 	    position: fixed;
+ 	    display: block;
+ 	    width: 100%;
+ 	    height: 100%;
+ 	    top: 0;
+ 	    right: 0;
+ 	    bottom: 0;
+ 	    left: 0;
+ 	    z-index: -2;
+ 	
+ }
