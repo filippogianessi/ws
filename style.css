@@ -87,6 +87,11 @@ p {
 	margin-top: 25px;
 }
 
+.spazioelencofinale {
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
 a {
 	color: white !important;
 	font-family: 'HKGrotesk-Medium', sans-serif;
