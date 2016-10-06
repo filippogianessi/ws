@@ -104,6 +104,13 @@ a {
 	font-family: 'HKGrotesk-Medium', sans-serif;
 	font-size: 21px;
 	
+	opacity: 1;
+  /* "both" tells the browser to use the above opacity
+  at the end of the animation (best practice) */
+  -webkit-animation: display-none-transition 3s both;
+  animation: display-none-transition 3s both;
+	animation-delay: 10s;
+	
 }
 
 
