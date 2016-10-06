@@ -144,7 +144,25 @@ a {
  }
 
 .headerz {
- 	fill: #ffff00;
+ 	fill: #ffffff;
+	display: block;
+  opacity: 1;
+  /* "both" tells the browser to use the above opacity
+  at the end of the animation (best practice) */
+  -webkit-animation: display-none-transition 1s both;
+  animation: display-none-transition 1s both;
 	
  }
  
+
+
+@-webkit-keyframes display-none-transition {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes display-none-transition {
+  0% {
+    opacity: 0;
+  }
+}
