@@ -55,6 +55,16 @@ p {
 	
 }
 
+highlighted_text {
+	
+	
+	font-family: 'HKGrotesk-Medium', sans-serif;
+	color: white;
+	font-size: 27px;
+	
+	
+}
+
 .titolo {
 
 	font-family: 'Freak-Grotesk', sans-serif;
